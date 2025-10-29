@@ -27,7 +27,7 @@ deseado 1 o 2.
 
 ## Migraciones
 Se encuentra dentro del proyecto de migraciones, se esta utilizando SQL Server, para agregar
-su conexion vaya a la lase de **ApplicationDbContext**, al metodo **OnConfiguring** y agrege su conexion.
+su conexion vaya a la clase de **ApplicationDbContext**, al metodo **OnConfiguring**, tambien necesita ir a la clase **DesignTimeDbContextFactory** al metodo **CreateDbContext** y agrege su conexion en ambos metodos.
 
 y para ejecutarlas permanezca de la misma carpeta de **Repositories** utilice su IDE o
 los siguientes comandos:

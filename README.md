@@ -29,7 +29,7 @@ deseado 1 o 2.
 Se encuentra dentro del proyecto de migraciones, se esta utilizando SQL Server, para agregar
 su conexion vaya a la lase de **ApplicationDbContext**, al metodo **OnConfiguring** y agrege su conexion.
 
-y para ejecutarlas dentri de la misma carpeta de **Repositories** utilice su IDE o
+y para ejecutarlas permanezca de la misma carpeta de **Repositories** utilice su IDE o
 los siguientes comandos:
  - dotnet ef migrations list
  - dotnet ef database update

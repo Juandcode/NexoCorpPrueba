@@ -1,0 +1,14 @@
+D:\RiderProjects\PruebaNexoCorp2\Repositories\bin\Debug\net9.0\Repositories.deps.json
+D:\RiderProjects\PruebaNexoCorp2\Repositories\bin\Debug\net9.0\Repositories.runtimeconfig.json
+D:\RiderProjects\PruebaNexoCorp2\Repositories\bin\Debug\net9.0\Repositories.dll
+D:\RiderProjects\PruebaNexoCorp2\Repositories\bin\Debug\net9.0\Repositories.pdb
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.csproj.AssemblyReference.cache
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfoInputs.cache
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.AssemblyInfo.cs
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.csproj.CoreCompileInputs.cache
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.dll
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\refint\Repositories.dll
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.pdb
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\Repositories.genruntimeconfig.cache
+D:\RiderProjects\PruebaNexoCorp2\Repositories\obj\Debug\net9.0\ref\Repositories.dll

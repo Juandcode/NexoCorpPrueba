@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4f276ca1-f64f-4694-bf07-c02ec0b5ddcb": {
+      "ProjectGuid": "4f276ca1-f64f-4694-bf07-c02ec0b5ddcb",
+      "DisplayName": "Repositories",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "30d11187-ba45-494d-9f86-f9c4c13e241f": {
+      "ProjectGuid": "30d11187-ba45-494d-9f86-f9c4c13e241f",
+      "DisplayName": "Domain",
+      "ColorIndex": 1
+    },
+    "a1cf3b96-2de4-4100-be3b-34994787283d": {
+      "ProjectGuid": "a1cf3b96-2de4-4100-be3b-34994787283d",
+      "DisplayName": "Services",
+      "ColorIndex": 2
+    },
+    "7454b37b-c7e7-4962-aa6d-cd23e7ea8547": {
+      "ProjectGuid": "7454b37b-c7e7-4962-aa6d-cd23e7ea8547",
+      "DisplayName": "PruebaNexoCorp2",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

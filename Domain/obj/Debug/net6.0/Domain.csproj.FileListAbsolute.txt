@@ -1,0 +1,11 @@
+D:\RiderProjects\PruebaNexoCorp2\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\RiderProjects\PruebaNexoCorp2\Domain\bin\Debug\net6.0\Domain.dll
+D:\RiderProjects\PruebaNexoCorp2\Domain\bin\Debug\net6.0\Domain.pdb
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.dll
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\Domain.pdb
+D:\RiderProjects\PruebaNexoCorp2\Domain\obj\Debug\net6.0\refint\Domain.dll

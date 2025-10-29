@@ -88,3 +88,4 @@ D:\RiderProjects\PruebaNexoCorp2\PruebaNexoCorp2\bin\Debug\net6.0\Services.dll
 D:\RiderProjects\PruebaNexoCorp2\PruebaNexoCorp2\bin\Debug\net6.0\Services.pdb
 D:\RiderProjects\PruebaNexoCorp2\PruebaNexoCorp2\obj\Debug\net6.0\PruebaNe.96B8D6E9.Up2Date
 D:\RiderProjects\PruebaNexoCorp2\PruebaNexoCorp2\obj\Debug\net6.0\refint\PruebaNexoCorp2.dll
+D:\RiderProjects\PruebaNexoCorp2\PruebaNexoCorp2\obj\Debug\net6.0\PruebaNexoCorp2.sourcelink.json

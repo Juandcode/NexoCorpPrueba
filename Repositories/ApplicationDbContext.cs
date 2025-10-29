@@ -5,22 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Repositories;
 
-// public class Producto
-// {
-//     [Key]
-//     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-//     public Guid IdProducto { get; set; }
-//
-//     public string Nombre { get; set; } = string.Empty;
-//     public decimal Costo { get; set; }
-//     public decimal Precio => Costo * (1 + 50 / 100);
-//     public int Stock { get; set; }
-//     public bool Activo { get; set; }
-//     public DateTime FechaVencimiento { get; set; }
-//     public string Observaciones { get; set; } = string.Empty;
-// }
-
-// DbContext
 public class ApplicationDbContext : DbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
@@ -31,8 +15,7 @@ public class ApplicationDbContext : DbContext
     public ApplicationDbContext()
     {
     }
-
-    //public DbSet<Usuario> Usuarios { get; set; }
+    
     public DbSet<ExpProductos> ExpProductos { get; set; }
     public DbSet<Categorias> Categorias { get; set; }
     public DbSet<ProductosCategorias> ProductosCategorias { get; set; }
@@ -43,7 +26,6 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        // Solo se usa en tiempo de diseño (migraciones)
         if (!optionsBuilder.IsConfigured)
         {
             optionsBuilder.UseSqlServer(
@@ -53,13 +35,6 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Configuraciones adicionales del modelo
-        /*modelBuilder.Entity<Usuario>()
-            .HasIndex(u => u.Email)
-            .IsUnique();*/
-
-        //modelBuilder.Entity<ExpProductos>(entity => { entity.Ignore(p => p.Precio); });
-
         modelBuilder.Entity<ExpProductos>()
             .HasOne(e => e.TiposProductos)
             .WithOne(t => t.ExpProductos)
@@ -84,12 +59,11 @@ public class ApplicationDbContext : DbContext
             entity =>
             {
                 entity.HasKey(c => c.IdCategoria);
-
-                // Configuración simple - relación con padre
+                
                 entity.HasOne(c => c.CategoriaPadre)
-                    .WithMany()// Sin navegación inversa
+                    .WithMany()
                     .HasForeignKey(c => c.IdCategoriaPadre)
-                    .IsRequired(false)// Opcional
+                    .IsRequired(false)
                     .OnDelete(DeleteBehavior.Restrict);
             });
 
